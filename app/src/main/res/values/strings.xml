@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Music Classifier</string>
+    <string name="contentDesc_recordButton">Record state button image</string>
+    <string name="contentDesc_filePicker">File picker image</string>
+    <string name="text_filePicker">OR PICK A SONG</string>
+    <string name="text_music_classifier">Music Classifier</string>
+
+
+    <string name="audio_recording">audio_recording</string>
+</resources>
