@@ -15,6 +15,10 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    aaptOptions {
+        noCompress "tflite"
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -39,9 +43,10 @@ dependencies {
     implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
     implementation 'org.slf4j:slf4j-simple:1.6.1'
 
-    implementation 'com.writingminds:FFmpegAndroid:0.3.2'
+    // tensorflow
+    implementation 'org.tensorflow:tensorflow-lite-task-audio:0.3.0'
+    implementation 'org.tensorflow:tensorflow-lite-gpu-delegate-plugin:0.3.0'
 
-    implementation 'com.arthenica:ffmpeg-kit-full:4.4.LTS'
 
 
 

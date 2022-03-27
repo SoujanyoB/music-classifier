@@ -1,14 +1,9 @@
 package com.soujanyo.music_classifier.utils;
 
 import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
-import android.provider.DocumentsContract;
 import android.util.Log;
-import android.widget.Toast;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Random;
 
